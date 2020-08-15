@@ -1,5 +1,3 @@
-# Ana and Robbie's Wedding
+# Ana and Robbie's Wedding Site
 
-## September 2021
-
-Watch this space for more!
+More to follow...
