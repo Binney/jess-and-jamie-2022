@@ -5,23 +5,30 @@ body {
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 200;
+    font-size: 20px;
 }
 
 .main {
-    background: linear-gradient(#fff2fd, #f3e1f7);
+    background: linear-gradient(#fff2fd, #dcb3e6);
     min-height: 100vh;
     min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-ul {
-    margin: 0;
+.centre-container {
+    text-align: center;
+}
+
+.splash-row {
+    background: rgba(255, 255, 255, 0.6);
 }
 
 h1.splash {
     font-family: 'Alex Brush', cursive;
     font-weight: 400;
-    font-size: 5rem;
-    text-align: center;
+    font-size: 6rem;
     line-height: 0.7;
     margin-bottom: 0.5rem;
 }
@@ -29,7 +36,6 @@ h1.splash {
 h2 {
     font-weight: 200;
     text-transform: uppercase;
-    text-align: center;
 }
 
 .nav {
@@ -38,6 +44,7 @@ h2 {
 }
 
 .nav ul {
+    margin: 0;
     list-style-type: none;
 }
 
