@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+}
+
+.main {
+    background: linear-gradient(#fff2fd, #f3e1f7);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+ul {
+    margin: 0;
+}
+
+h1.splash {
+    font-family: 'Alex Brush', cursive;
+    font-weight: 400;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 0.7;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nav {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
