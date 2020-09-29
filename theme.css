@@ -9,7 +9,9 @@ body {
 }
 
 .main {
-    background: linear-gradient(#fff2fd, #dcb3e6);
+    background-image: url('images/a.jpg');
+    background-size: cover;
+    background-position: bottom right;
     min-height: 100vh;
     min-width: 100vw;
     display: flex;
@@ -53,4 +55,8 @@ h2 {
     display: inline;
     font-size: 1.2rem;
     padding: 1rem;
+}
+
+.major {
+    font-size: 1.2rem;
 }
