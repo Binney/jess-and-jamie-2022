@@ -63,6 +63,7 @@ h2 {
     padding: 1rem;
 }
 
-.major {
-    font-size: 1.2rem;
+#rsvp-form {
+    max-width: 700px;
+    margin: auto;
 }
