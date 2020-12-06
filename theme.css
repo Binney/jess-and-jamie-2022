@@ -9,14 +9,19 @@ body {
 
 .main {
     background-image: url('images/spring-4231616_1920.png'), url('images/texture.jpg');
-    background-size: contain, cover;
-    background-position: center, center;
+    background-size: 50%, cover;
+    background-position: bottom -100px right -50px, center;
     background-repeat: no-repeat;
     min-height: 100vh;
     min-width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.homepage {
+    background-size: contain, cover;
+    background-position: center, center;
 }
 
 .centre-container {
@@ -42,6 +47,7 @@ h2 {
 
 .nav {
     padding-top: 2rem;
+    padding-bottom: 1.5rem;
     text-align: center;
 }
 
