@@ -82,6 +82,10 @@ h2 {
     font-weight: bold;
 }
 
+.nav li.current-link {
+    text-decoration: underline;
+}
+
 .emphasis {
     font-style: italic;
 }
