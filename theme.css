@@ -7,6 +7,16 @@ body {
     font-size: 20px;
 }
 
+a {
+    text-decoration: none;
+    color: #bb609f;
+    transition: color 0.2s ease;
+}
+
+a:hover, a:active {
+    color: #e5c0d2;
+}
+
 .main {
     background-image: url('images/spring-4231616_1920.png'), url('images/texture.jpg');
     background-size: 50%, cover;
@@ -29,7 +39,7 @@ body {
 }
 
 .splash-row {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(237, 228, 241, 0.6);
 }
 
 h1.splash {
