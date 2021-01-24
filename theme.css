@@ -23,7 +23,6 @@ a:hover, a:active {
     background-position: bottom -100px right -50px, center;
     background-repeat: no-repeat;
     min-height: 100vh;
-    min-width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
