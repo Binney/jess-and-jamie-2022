@@ -42,6 +42,22 @@ a:hover, a:active {
     margin: 2rem auto;
 }
 
+.two-side-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.two-side-container {
+    width: 40%;
+    padding: 0 30px;
+    min-width: 300px;
+}
+
+.menu p {
+    margin: 1rem auto;
+}
+
 .splash-row {
     background: rgba(237, 228, 241, 0.6);
 }
@@ -57,6 +73,10 @@ h1.splash {
 h2 {
     font-weight: 300;
     text-transform: uppercase;
+}
+
+h3 {
+    margin: 0;
 }
 
 .nav {
