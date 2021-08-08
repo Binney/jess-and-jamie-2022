@@ -127,3 +127,22 @@ h3 {
         display: none;
     }
 }
+
+.timings table {
+    margin: 1rem auto;
+    text-align: left;
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+table .time {
+    padding-right: 1rem;
+    text-align: right;
+}
