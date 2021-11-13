@@ -33,15 +33,5 @@
             </div>
         </div>
     </div>
-    <button id="toggle-background" onclick="toggleBackground(event);" style="position: fixed; left: 1rem; top: 1rem;">Toggle</button>
-    <script>
-        let version = 0;
-        function toggleBackground(e) {
-            e && e.preventDefault();
-            let div = document.querySelector('.main.homepage');
-            version = (version + 1) % 5;
-            div.style = `background-image: url('images/ring${version}.png'), url('images/texture.jpg')`;
-        }
-    </script>
 </body>
 </html>

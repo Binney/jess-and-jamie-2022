@@ -75,7 +75,8 @@ a:hover, a:active {
 }
 
 .splash-row {
-    background: rgba(225, 232, 202, 0.5);
+    background: rgba(242, 185, 151, 0.4);
+    /* background: rgba(225, 232, 202, 0.5); */
     /* background: rgba(247, 232, 151, 0.5); */
 }
 
