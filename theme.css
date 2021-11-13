@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Rosario:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Nunito:wght@200&display=swap');
 
 body {
     margin: 0;
-    font-family: 'Rosario', sans-serif;
-    font-weight: 300;
+    font-family: 'Nunito', serif;
+    font-weight: 200;
     font-size: 20px;
 }
 
@@ -80,11 +80,15 @@ a:hover, a:active {
 }
 
 h1.splash {
-    font-family: 'Playfair DIsplay', serif;
+    font-family: 'Cormorant Garamond', serif;
     font-weight: 900;
     font-size: 6rem;
     line-height: 0.8;
     margin-bottom: 0.5rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Cormorant Garamond', serif;
 }
 
 h2 {
@@ -100,10 +104,15 @@ ul {
     list-style-type: none;
 }
 
+.major {
+    font-family: 'Cormorant Garamond', serif;
+}
+
 .nav {
     padding-top: 2rem;
     padding-bottom: 1.5rem;
     text-align: center;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .nav ul {
