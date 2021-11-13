@@ -97,6 +97,10 @@ h2 {
     text-transform: uppercase;
 }
 
+.homepage h2 {
+    font-family: 'Nunito', sans-serif;
+}
+
 h3 {
     margin: 0;
 }
@@ -175,4 +179,34 @@ ul {
 table .time {
     padding-right: 1rem;
     text-align: right;
+}
+
+/* Spinner courtesy of https://loading.io/ */
+.loading-spinner::after {
+    position: absolute;
+    z-index: 1;
+    left: calc(50% - 32px);
+    top: calc(50% - 32px);
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+.loading-spinner.hidden {
+    display: none;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
