@@ -1,3 +1,6 @@
-# Ana and Robbie's Wedding Site
+# Jess and Jamie's Wedding Site
 
-More to follow...
+To run:
+```
+http-server
+```
