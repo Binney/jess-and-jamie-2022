@@ -19,13 +19,22 @@ a:hover, a:active {
 
 .main {
     background-image: url('images/ring0.png'), url('images/texture.jpg');
-    background-size: 50%, cover;
+    background-size: 100%, cover;
     background-position: bottom -100px right -50px, center;
     background-repeat: no-repeat;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media screen and (min-width: 400px) {
+    /* Desktop */
+    .main {
+        background-size: 1500px, cover;
+        background-position: center, center;
+        background-attachment: fixed;
+    }
 }
 
 .homepage {
@@ -49,7 +58,7 @@ a:hover, a:active {
 }
 
 .two-side-container {
-    width: 40%;
+    width: 30%;
     padding: 0 30px;
     min-width: 300px;
 }
