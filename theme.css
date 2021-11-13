@@ -9,16 +9,16 @@ body {
 
 a {
     text-decoration: none;
-    color: #bb609f;
+    color: #c08f42;
     transition: color 0.2s ease;
 }
 
 a:hover, a:active {
-    color: #e5c0d2;
+    color: #ecc65e;
 }
 
 .main {
-    background-image: url('images/spring-4231616_1920.png'), url('images/texture.jpg');
+    background-image: url('images/ring0.png'), url('images/texture.jpg');
     background-size: 50%, cover;
     background-position: bottom -100px right -50px, center;
     background-repeat: no-repeat;
@@ -59,7 +59,8 @@ a:hover, a:active {
 }
 
 .splash-row {
-    background: rgba(237, 228, 241, 0.6);
+    background: rgba(225, 232, 202, 0.5);
+    /* background: rgba(247, 232, 151, 0.5); */
 }
 
 h1.splash {
