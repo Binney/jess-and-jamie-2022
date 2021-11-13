@@ -38,8 +38,15 @@ a:hover, a:active {
 }
 
 .homepage {
-    background-size: contain, cover;
+    background-size: 550px, cover;
     background-position: center, center;
+}
+
+@media screen and (min-width: 600px) {
+    /* Desktop */
+    .homepage.main {
+        background-size: contain, cover;
+    }
 }
 
 .centre-container {
