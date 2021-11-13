@@ -19,8 +19,8 @@ a:hover, a:active {
 
 .main {
     background-image: url('images/ring0.png'), url('images/texture.jpg');
-    background-size: 100%, cover;
-    background-position: bottom -100px right -50px, center;
+    background-size: 1000px, cover;
+    background-position: top -700px left 50%, center;
     background-repeat: no-repeat;
     min-height: 100vh;
     display: flex;
@@ -28,7 +28,7 @@ a:hover, a:active {
     justify-content: space-between;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 600px) {
     /* Desktop */
     .main {
         background-size: 1500px, cover;
