@@ -18,7 +18,7 @@ a:hover, a:active {
 }
 
 .main {
-    background-image: url('images/ring0.png'), url('images/texture.jpg');
+    background-image: url('images/wreath.png'), url('images/texture.jpg');
     background-size: 1300px, cover;
     background-position: top -720px left 50%, center;
     background-repeat: no-repeat;
@@ -75,7 +75,7 @@ a:hover, a:active {
 }
 
 .splash-row {
-    background: rgba(242, 185, 151, 0.4);
+    background: rgba(240, 232, 206, 0.4);
     /* background: rgba(225, 232, 202, 0.5); */
     /* background: rgba(247, 232, 151, 0.5); */
 }
