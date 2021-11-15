@@ -154,18 +154,6 @@ ul {
     margin: auto;
 }
 
-@media (min-width: 500px) {
-    #mobile_map {
-        display: none;
-    }
-}
-
-@media (max-width: 499px) {
-    #desktop_map {
-        display: none;
-    }
-}
-
 .timings table {
     margin: 1rem auto;
     text-align: left;
