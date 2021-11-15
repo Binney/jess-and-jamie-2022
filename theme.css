@@ -49,6 +49,10 @@ a:hover, a:active {
     }
 }
 
+.container {
+    padding: 1rem;
+}
+
 .centre-container {
     text-align: center;
 }
