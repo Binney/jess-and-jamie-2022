@@ -55,6 +55,12 @@ a:hover, a:active {
 
 .centre-container {
     text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.fullwidth-container {
+    max-width: unset;
 }
 
 .centre-container p {
@@ -201,4 +207,17 @@ table .time {
     100% {
         transform: rotate(360deg);
     }
+}
+
+.timings-list {
+    list-style-type: none;
+    padding: 0;
+    font-style: normal;
+    text-align: left;
+}
+
+.timings-time {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    padding-right: 1rem;
 }
