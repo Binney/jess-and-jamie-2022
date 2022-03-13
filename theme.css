@@ -221,3 +221,11 @@ table .time {
     font-weight: bold;
     padding-right: 1rem;
 }
+
+.menu-course {
+    padding: 0 1.5rem;
+}
+
+.menu-course li {
+    margin-bottom: 0.5rem;
+}
